@@ -1,0 +1,37 @@
+Ping_CMDR V0.04.02
+Starting Date - 20161206
+Starting Time - 14:12:45
+
+Internet   is UP   - 14:12:47
+Commander  is UP   - 14:12:47
+Router     is UP   - 14:12:47
+Router     is DOWN - 14:13:38
+Router     is UP   - 14:15:50
+Commander  is DOWN - 14:15:59
+Router     is DOWN - 14:15:59
+Commander  is UP   - 14:17:30
+POS 1      is UP   - 14:17:32
+POS 2      is UP   - 14:17:32
+POS 1      is DOWN - 14:18:17
+Commander  is DOWN - 14:18:21
+POS 2      is DOWN - 14:18:21
+Router     is UP   - 14:18:33
+Commander  is UP   - 14:19:53
+Internet   is Down - 14:20:05
+Internet   is UP   - 14:20:08
+POS 1      is UP   - 14:20:47
+POS 2      is UP   - 14:20:49
+Commander  is DOWN - 14:21:02
+Commander  is UP   - 14:21:31
+POS 2      is DOWN - 14:22:00
+POS 1      is DOWN - 14:22:03
+POS 1      is UP   - 14:22:36
+Commander  is DOWN - 14:23:03
+POS 2      is UP   - 14:23:20
+Commander  is UP   - 14:23:32
+POS 1      is DOWN - 14:23:59
+POS 2      is DOWN - 14:24:48
+POS 1      is UP   - 14:25:39
+POS 2      is UP   - 14:26:19
+Commander  is DOWN - 14:26:37
+Commander  is UP   - 14:28:01
