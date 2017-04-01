@@ -14,7 +14,7 @@ import subprocess
 
 
 application = "Ping_CMDR"
-version = "0.05.00"
+version = "0.05.10"
 name = application + "  V" + version
 email = "David@DREAM-Enterprise.com"
 
@@ -441,72 +441,72 @@ def write_file(file_name):
     
     if var_0 != ping_0: 
         if ping_0 == 1:
-            f.write(dev_0.ljust(dev_width) + " is UP   - " + uptime_0 + "\n")
+            f.write(dev_0.ljust(dev_width) + " is UP   - " + uptime_0 + " - " + currdate + "\n")
             if diag == (1):
                 f.write("Loop Count - " + str(loop_count) + "\n")
         else:
-            f.write(dev_0.ljust(dev_width) + " is Down - " + uptime_0 + "\n")
+            f.write(dev_0.ljust(dev_width) + " is Down - " + uptime_0 +  " - " + currdate + "\n")
             if diag == (1):
                 f.write("Loop Count - " + str(loop_count) + "\n")
        
     if var_1 != ping_1:
         if ping_1 == 1:
-            f.write(dev_1.ljust(dev_width) + " is UP   - " + uptime_1 + "\n")        
+            f.write(dev_1.ljust(dev_width) + " is UP   - " + uptime_1 + " - " + currdate +  "\n")        
             if diag == (1):
                 f.write("Loop Count - " + str(loop_count) + "\n")
         else:
-            f.write(dev_1.ljust(dev_width) + " is DOWN - " + uptime_1 + "\n")
+            f.write(dev_1.ljust(dev_width) + " is DOWN - " + uptime_1 + " - " + currdate +  "\n")
             if diag == (1):
                 f.write("Loop Count - " + str(loop_count) + "\n")
    
     if var_2 != ping_2:
         if ping_2 == 1:
-            f.write(dev_2.ljust(dev_width) + " is UP   - " + uptime_2 + "\n")        
+            f.write(dev_2.ljust(dev_width) + " is UP   - " + uptime_2 + " - " + currdate +  "\n")        
             if diag == (1):
                 f.write("Loop Count - " + str(loop_count) + "\n")
         else:
-            f.write(dev_2.ljust(dev_width) + " is DOWN - " + uptime_2 + "\n")
+            f.write(dev_2.ljust(dev_width) + " is DOWN - " + uptime_2 + " - " + currdate +  "\n")
             if diag == (1):
                 f.write("Loop Count - " + str(loop_count) + "\n")
    
     if var_3 != ping_3:
         if ping_3 == 1:
-            f.write(dev_3.ljust(dev_width) + " is UP   - " + uptime_3 + "\n")        
+            f.write(dev_3.ljust(dev_width) + " is UP   - " + uptime_3 + " - " + currdate +  "\n")        
             if diag == (1):
                 f.write("Loop Count - " + str(loop_count) + "\n")
         else:
-            f.write(dev_3.ljust(dev_width) + " is DOWN - " + uptime_3 + "\n")
+            f.write(dev_3.ljust(dev_width) + " is DOWN - " + uptime_3 + " - " + currdate +  "\n")
             if diag == (1):
                 f.write("Loop Count - " + str(loop_count) + "\n")
    
     if var_4 != ping_4:
         if ping_4 == 1:
-            f.write(dev_4.ljust(dev_width) + " is UP   - " + uptime_4 + "\n")        
+            f.write(dev_4.ljust(dev_width) + " is UP   - " + uptime_4 + " - " + currdate +  "\n")        
             if diag == (1):
                 f.write("Loop Count - " + str(loop_count) + "\n")
         else:
-            f.write(dev_4.ljust(dev_width) + " is DOWN - " + uptime_4 + "\n")
+            f.write(dev_4.ljust(dev_width) + " is DOWN - " + uptime_4 + " - " + currdate +  "\n")
             if diag == (1):
                 f.write("Loop Count - " + str(loop_count) + "\n")
 
     if ui == (2):
         if var_5 != ping_5:
             if ping_5 == 1:
-                f.write(dev_5.ljust(dev_width) + " is UP   - " + uptime_5 + "\n")        
+                f.write(dev_5.ljust(dev_width) + " is UP   - " + uptime_5 + " - " + currdate + "\n")        
                 if diag == (1):
                     f.write("Loop Count - " + str(loop_count) + "\n")
             else:
-                f.write(dev_5.ljust(dev_width) + " is DOWN - " + uptime_5 + "\n")
+                f.write(dev_5.ljust(dev_width) + " is DOWN - " + uptime_5 + " - " + currdate +  "\n")
                 if diag == (1):
                     f.write("Loop Count - " + str(loop_count) + "\n")
        
         if var_6 != ping_6:
             if ping_6 == 1:
-                f.write(dev_6.ljust(dev_width) + " is UP   - " + uptime_6 + "\n")        
+                f.write(dev_6.ljust(dev_width) + " is UP   - " + uptime_6 + " - " + currdate +  "\n")        
                 if diag == (1):
                     f.write("Loop Count - " + str(loop_count) + "\n")
             else:
-                f.write(dev_6.ljust(dev_width) + " is DOWN - " + uptime_6 + "\n")
+                f.write(dev_6.ljust(dev_width) + " is DOWN - " + uptime_6 + " - " + currdate +  "\n")
                 if diag == (1):
                     f.write("Loop Count - " + str(loop_count) + "\n")
    
